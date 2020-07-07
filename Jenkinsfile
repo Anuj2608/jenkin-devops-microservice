@@ -18,6 +18,16 @@ pipeline {
 				echo "Integration Test"	
 			}
 		}
+	} post {
+		always {
+			echo 'I like Jenkins!!'
+		}
+		success {
+			echo 'I run when your successfull!'
+		}
+		failure {
+			echo 'I run when your fail'
+		}
 	}
 	
 }
