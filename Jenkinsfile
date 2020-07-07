@@ -1,6 +1,6 @@
 // Declarative Pipleline
 
-pipleline {
+pipeline {
 	agent any
 	stages {
 		stage('Build') {
